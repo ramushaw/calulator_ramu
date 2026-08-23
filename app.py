@@ -2,7 +2,7 @@ import streamlit as st
 import math
 
 # Set up the title of the web app
-st.title("Advanced Multi-Calculator")
+st.title("Advanced Multi-Calculator made by Ramu Shaw")
 st.write("Perform Arithmetic, Trigonometry, or Machining calculations in one place.")
 
 # Dropdown menu for the main calculation category
