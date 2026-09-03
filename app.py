@@ -180,7 +180,7 @@ elif option == "Machining Engine":
             "radial structural thread depths explicitly scaled in microns."
         )
         t_nom = st.number_input("Nominal Thread Outer Major Boundary (mm):", min_value=0.0, value=12.0)
-        t_pitch = st.number_input("Thread Thread Pitch Vector (mm):", min_value=0.0, value=1.75)
+        t_pitch = st.number_input("Thread Pitch Vector (mm):", min_value=0.0, value=1.75)
         
         if st.button("Analyze Mechanical Thread Array"):
             if t_nom <= 0 or t_pitch <= 0: st.error("Thread parameters must map above structural boundaries.")
